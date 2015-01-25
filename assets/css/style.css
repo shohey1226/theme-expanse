@@ -125,6 +125,7 @@ body {
 }
 .container.wide {
   width: 80%;
+  text-align: center;
   max-width: 1280px;
 }
 .container:after {
@@ -270,7 +271,7 @@ header h1 {
   text-transform: uppercase;
   /* font-size: 1.75rem; */
   color: #ffffff;
-  float: left;
+  /* float: left; */
   /* width: 50%; */
   margin: 0;
   padding: 0;
