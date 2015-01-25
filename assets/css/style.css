@@ -325,7 +325,7 @@ header .overlay {
   filter: alpha(opacity=0);
 }
 body.short-header header {
-  height: 130px;
+  /* height: 130px;*/
 }
 .fade {
   -webkit-animation: fade 2s 1 ease-in;
@@ -549,7 +549,7 @@ body.short-header header {
   top: -210px;
 }
 body.short-header header {
-  height: 130px;
+  /* height: 130px; */
 }
 body.short-header .bio .arrow {
   top: -10px;
