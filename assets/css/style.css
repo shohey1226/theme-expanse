@@ -190,9 +190,9 @@ header {
   position: relative;
   display: block;
   width: 100%;
-  height: 550px;
+  /* height: 550px; */
   overflow: hidden;
-  background-color: #000;
+  background-color: #fff;
 }
 header .bg {
   position: absolute;
