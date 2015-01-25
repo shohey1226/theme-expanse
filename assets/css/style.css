@@ -297,10 +297,10 @@ header ul li {
 }
 header ul li a {
   display: inline-block;
-  padding-bottom: 6px;
+  /* padding-bottom: 6px; */
   font-family: 'Roboto';
   font-weight: 400;
-  color: #ffffff;
+  color: #A5A2A2;
 }
 header ul li a:hover {
   color: #37cca2;
