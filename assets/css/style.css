@@ -284,15 +284,15 @@ header h1 a:hover {
   color: #37cca2;
 }
 header ul {
-  text-align: right;
-  float: left;
-  width: 50%;
+  /* text-align: right; */
+  /* float: left; */
+  /* width: 50%; */
 }
 header ul li {
   display: inline-block;
   font-size: 0.9rem;
   line-height: 0.9rem;
-  padding: 0 0 0 35px;
+  padding: 10px 10px 0 10px;
   margin: 0;
 }
 header ul li a {
