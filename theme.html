@@ -42,16 +42,13 @@
       <img src="{{ assets('images/rainbow-bg.png') }}" class="rainbow" />
       <div class="container wide">
         <h1><a href="{{ site.base_url }}">{{ site.name }}</a></h1>
-        {% if pages %}
         <ul class="cover-nav">
-          <li><a href="{{ site.base_url }}">Blog</a></li>
           <li><a href="https://www.facebook.com/good.design.interior.1028">FB</a></li>
           <li><a href="http://good-design-interior.com/">APP</a></li>
             {% for page in pages %}
             <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
             {% endfor %}
         </ul>
-        {% endif %}
       </div>
     </header>
 
